@@ -4,9 +4,47 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+
+	<style>
+        /* Apply CSS styles to the table, th, tr, and td elements */
+        table {
+            background-color: yellow;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+		       }
+	</style>
 </head>
 
 <body>
+
+	<table border="1">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>22</td>
+                <td>ECE</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
